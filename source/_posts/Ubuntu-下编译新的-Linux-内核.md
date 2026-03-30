@@ -21,13 +21,13 @@ banner_img: https://i.imgur.com/JztWwKL.png
 
 首先，到官网（<https://www.kernel.org/>）下载内核。
 
-![20210407133515](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407133515.png)
+![20210407133515](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407133515.png)
 
 下载好之后，因为我这个 Ubuntu 是 Windows 下的虚拟机，所以，直接将文件拖入虚拟机的任意一个文件夹即可。
 
-![20210407134031](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407134031.png)
+![20210407134031](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407134031.png)
 
-![20210407134159](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407134159.png)
+![20210407134159](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407134159.png)
 
 ### 解压 tar.xz 包
 
@@ -70,7 +70,7 @@ $ sudo apt-get install libidn11-dev libidn11
 $ cd linux-5.11.11/
 ```
 
-![20210407164541](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407164541.png)
+![20210407164541](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407164541.png)
 
 这里可以给虚拟机拍一个快照。这是为了后续出错时，可以回到这个点。（如果不知道快照，可以自行搜索引擎搜索，这个真的很方便）
 
@@ -104,7 +104,7 @@ $ sudo make menuconfig
 
 这个命令执行完之后会出现一个图形界面，如果需要裁剪内核，那么，我们需要对这里的选项进行一些配置。这里我们直接使用右方向键，跳到 `Exit` 选项，然会回车退出即可。
 
-![20210407202347](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407202347.png)
+![20210407202347](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407202347.png)
 
 #### 开始编译
 
@@ -116,7 +116,7 @@ $ sudo make -j4
 
 这里的 `-j` 选项后面的数字表示使用多进程并发编译的意思，我这里选择 4，也可以选择 2 或者不要 `-j4` 这个选项。我这里因为使用了 4 个进程，所以编译基本在两分钟以内就完成了。
 
-![20210407171823](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407171823.png)
+![20210407171823](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407171823.png)
 
 以上表示 make 好了。
 
@@ -139,7 +139,7 @@ $ cd /usr/src/linux-5.11.11/
 $ sudo make modules_install
 ```
 
-![20210407172434](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407172434.png)
+![20210407172434](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407172434.png)
 
 以上表示 modules 安装完成。
 
@@ -149,7 +149,7 @@ $ sudo make modules_install
 $ sudo make install
 ```
 
-![20210407172707](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407172707.png)
+![20210407172707](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407172707.png)
 
 以上表示新内核安装完成。
 
@@ -163,10 +163,10 @@ $ uname -r
 
 之前是 `5.11.7`
 
-![20210407172819](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407172819.png)
+![20210407172819](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407172819.png)
 
 重启 Ubuntu 18.04.5 系统并检查内核版本，结果如下
 
-![20210407173212](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407173212.png)
+![20210407173212](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407173212.png)
 
 发现内核版本变成了 `5.11.11`，表明安装内核成功。

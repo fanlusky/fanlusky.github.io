@@ -6,8 +6,8 @@ tags:
 - 读书笔记
 categories:
 - 读书笔记
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222401.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222401.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222401.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222401.png
 description: '记录我读《编写高质量代码：改善 Python 代码程序的 91 个建议》的相关笔记，或许可以供日后回顾。'
 ---
 

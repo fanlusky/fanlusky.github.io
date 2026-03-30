@@ -7,13 +7,13 @@ tags:
 - 小技巧
 categories: Git
 description: Git 使用 VPN 代理来提速
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210608002813.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210608002813.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210608002813.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210608002813.png
 ---
 
 首先查看我们使用的 “相关” 软件的端口设置：
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210223012913.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210223012913.png)
 
 然后在 Git Bash 中敲入设置全局代理的命令：
 
@@ -26,7 +26,7 @@ git config --global https.proxy 'socks5://127.0.0.1:4781'
 
 设置完之后 git clone 一个仓库进行测试，发现速度飙到了 5.5 mb/s，而原来的速度是只有十几 kb/s 的。
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210223012957.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210223012957.png)
 
 记录遇到的坑：
 

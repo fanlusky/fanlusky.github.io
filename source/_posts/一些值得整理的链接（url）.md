@@ -7,8 +7,8 @@ tags:
 - 收集
 categories:
 - URL
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20211023132351.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20211023132351.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20211023132351.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20211023132351.png
 ---
 
 安装 Windows 和 Ubuntu 双系统：<https://regulus.cc/2019/10/05/Windows10+Ubuntu18.04%E5%8F%8C%E7%B3%BB%E7%BB%9F%E7%AE%80%E5%8D%95%E5%AE%89%E8%A3%85%E6%8C%87%E5%8C%97/>

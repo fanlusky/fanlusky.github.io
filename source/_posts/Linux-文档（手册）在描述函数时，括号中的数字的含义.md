@@ -7,15 +7,15 @@ tags:
 - Linux
 categories:
 - Linux
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222705.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222705.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222705.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222705.png
 ---
 
 ## 前言
 
 在阅读《Linux C 一站式编程》时，发现书中提到函数时，会在括号中加上数字。第一次遇到，不解。遂谷歌之，记录一下。
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210505170358.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210505170358.png)
 
 ## 具体解释
 

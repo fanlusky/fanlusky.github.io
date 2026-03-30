@@ -13,7 +13,7 @@ banner_img: https://i.imgur.com/qINUXE0.png
 mathjax: true
 ---
 
-![20210405224205](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405224205.png)
+![20210405224205](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405224205.png)
 
 我们观察这个 total 的值，显然，如果我们简单地把下面的所有文件的第五列的文件字节大小给加起来，得到的结果和这个 total 是不能画等号的。
 
@@ -21,7 +21,7 @@ mathjax: true
 
 我们使用 `ls -lh` 命令来查看文件的具体大小
 
-![20210405224059](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405224059.png)
+![20210405224059](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405224059.png)
 
 注意，这个命令列出来的文件大小的单位是 `K`，即 `KB`（不满 1.0 KB 的还是以字节为单位，并显示其以字节为单位应该显示的数字），但是，我们再重新加一下，发现其结果还是和 `total` 不相等。原因什么呢？
 
@@ -35,7 +35,7 @@ mathjax: true
 stat -fc %s .
 ```
 
-![20210405225101](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405225101.png)
+![20210405225101](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405225101.png)
 
 这里发现我的系统的 `Block Size` 为 4096，单位是字节，转换成 `KB` 也就是 `4KB`，那么，我们分别来计算上面列出来的文件各自需要多少个这样的 `Block Size`。
 

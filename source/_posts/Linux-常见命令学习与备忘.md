@@ -7,8 +7,8 @@ tags:
 - Linux 命令
 categories:
 - Linux
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210613153202.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210613153202.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210613153202.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210613153202.png
 description: 'Linux 的一些中间命令的学习记录。'
 ---
 
@@ -30,7 +30,7 @@ $ cat file1 file2...
 $ cat _config.yml
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405185854.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405185854.png)
 
 #### ls 命令
 
@@ -48,7 +48,7 @@ $ cat _config.yml
 $ ls -l
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405193525.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405193525.png)
 
 上面列出的文件中，第一列表示文件模式和权限，第二列表示链接数（即 link count，不过，这里的 link 是 hard link），第三列是文件的所有者，第四列是用户组，第五列是文件大小，后面是文件最后更改的日期、时间以及文件名。
 
@@ -82,11 +82,11 @@ $ cp file1 ... fileN dir
 $ cp a.txt b.txt
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210406130519.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210406130519.png)
 
 将 `a.txt` 和 `b.txt` 复制到 `new` 这个新目录中，`new` 目录必须存在，因为 `cp` 命令不会自动创建它（如果它本来不存在的话）。
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210406130728.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210406130728.png)
 
 附：使用 `cp a.txt b.txt` 命令时，如果 `b.txt` 中原来有内容，那么，复制完之后，`b.txt` 中原来的内容将会被 `a.txt` 中的内容覆盖掉。
 
@@ -119,7 +119,7 @@ $ mv file1 ... fileN dir
 $ mv a.txt c.txt
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210406132001.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210406132001.png)
 
 将 `a.txt` 和 `c.txt` 移动到 `new` 目录中：
 
@@ -127,7 +127,7 @@ $ mv a.txt c.txt
 $ mv a.txt c.txt new
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210406132402.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210406132402.png)
 
 #### touch 命令
 
@@ -147,7 +147,7 @@ $ touch file
 
 默认情况下，它不会删除目录。
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210406133409.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210406133409.png)
 
 使用格式
 
@@ -162,7 +162,7 @@ $ rm file
 
 使用范例
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210406133915.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210406133915.png)
 
 这里 `*` 表示通配符，表示匹配当前目录下的任意文件或者文件夹。
 
@@ -172,7 +172,7 @@ $ rm file
 
 使用范例
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210406133206.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210406133206.png)
 
 #### cd 命令
 
@@ -226,7 +226,7 @@ $ rmdir dir
 $ grep root /etc/passwd
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405153031.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405153031.png)
 
 查看目录 `/etc` 中所有包含 root 的文件：
 
@@ -234,7 +234,7 @@ $ grep root /etc/passwd
 $ grep root /etc/*
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405153146.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405153146.png)
 
 `grep` 有几个重要的选项：
 
@@ -249,7 +249,7 @@ $ grep root /etc/*
 grep footer ./themes/ -n -r
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405154002.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405154002.png)
 
 #### less 命令
 
@@ -268,9 +268,9 @@ grep footer ./themes/ -n -r
 $ grep ie /usr/share/dict/words | less
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405160912.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405160912.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405160831.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405160831.png)
 
 #### pwd 命令
 
@@ -284,7 +284,7 @@ $ grep ie /usr/share/dict/words | less
 $ pwd
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405161309.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405161309.png)
 
 #### diff 命令
 
@@ -296,7 +296,7 @@ $ pwd
 $ diff _config.yml _config.landscape.yml
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405161628.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405161628.png)
 
 #### file 命令
 
@@ -310,7 +310,7 @@ $ diff _config.yml _config.landscape.yml
 $ file _config.yml
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405162651.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405162651.png)
 
 #### find 和 locate 命令
 
@@ -335,7 +335,7 @@ $ find dir -name filename -print
 find . -name _config.yml -print
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405170544.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405170544.png)
 
 这里的 `.` 和 `./` 等价，表示在当前目录下查找。注意，这个 `find` 命令是递归查找所有文件的。
 
@@ -357,7 +357,7 @@ $ head /etc/passwd
 $ tail /etc/passwd
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405171404.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405171404.png)
 
 #### sort 命令
 
@@ -374,7 +374,7 @@ $ tail /etc/passwd
 sort _config.yml
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405172428.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405172428.png)
 
 ### 进阶命令
 

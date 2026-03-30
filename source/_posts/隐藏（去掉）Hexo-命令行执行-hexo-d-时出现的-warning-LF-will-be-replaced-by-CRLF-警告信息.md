@@ -16,7 +16,7 @@ banner_img: https://i.imgur.com/cLf1KZ8.jpg
 
 Hexo 在部署到 Github 上时，即执行 `hexo d` 命令时，命令行出现这样的警告
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210421221511.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210421221511.png)
 
 这个警告表示 Git 会把 `LF` 替换为 `CRLF`，这个警告并没有什么不好的影响，所以我决定把它给隐藏掉。
 

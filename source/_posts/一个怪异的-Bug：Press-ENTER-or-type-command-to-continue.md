@@ -13,7 +13,7 @@ index_img: https://i.imgur.com/affgJbP.png
 banner_img: https://i.imgur.com/affgJbP.png
 ---
 
-![20210405234503](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405234503.png)
+![20210405234503](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405234503.png)
 
 问题就是，我进入了这个 vim 的配置文件之后，敲了几下键盘，然后就陷入了出不来的死循环之中。
 

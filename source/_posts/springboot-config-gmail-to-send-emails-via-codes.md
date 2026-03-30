@@ -130,5 +130,5 @@ public class EmailUtilServiceImplTest {
 
 如果你想要这个 demo 的完整文件的话，那么，可以访问这个 GitHub 仓库：
 
-<https://github.com/fanlumaster/mail-demo>
+<https://github.com/fanlusky/mail-demo>
 

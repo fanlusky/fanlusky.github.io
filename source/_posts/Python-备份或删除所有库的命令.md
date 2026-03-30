@@ -30,7 +30,7 @@ pip freeze > requirements.txt
 
 下面是我备份的示例
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210329233624.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210329233624.png)
 
 命令三
 

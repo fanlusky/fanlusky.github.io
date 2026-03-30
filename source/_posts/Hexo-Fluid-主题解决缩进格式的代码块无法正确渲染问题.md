@@ -7,15 +7,15 @@ tags:
 - Fluid
 categories:
 - Hexo
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210606232105.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210606232105.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210606232105.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210606232105.png
 ---
 
 ## Bug 描述
 
 我的问题是在代码高亮配置为 highlightjs 的 Atom One Dark 的情况下，关于采用 TAB 键缩进的代码无法正常渲染，效果如下
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210606220528.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210606220528.png)
 
 主题配置文件中的相关配置如下
 
@@ -79,6 +79,6 @@ custom_css: /css/custom.css
 
 验证一下
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210606231703.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210606231703.png)
 
 发现成功解决。

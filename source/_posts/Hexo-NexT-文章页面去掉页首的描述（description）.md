@@ -16,7 +16,7 @@ description: ' '
 
 如下图，我们想去掉页首显示的这个 description，因为这个 description 只在首页显示就够了。
 
-![20210329001641](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210329001641.png)
+![20210329001641](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210329001641.png)
 
 ### 解决方法
 
@@ -28,8 +28,8 @@ description: ' '
 {%- endif %}
 ```
 
-![20210329001034](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210329001034.png)
+![20210329001034](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210329001034.png)
 
 效果
 
-![20210329001856](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210329001856.png)
+![20210329001856](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210329001856.png)

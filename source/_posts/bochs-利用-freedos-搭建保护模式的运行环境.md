@@ -8,8 +8,8 @@ tags:
 - 一个操作系统的实现
 categories:
 - 操作系统
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210613175650.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210613175650.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210613175650.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210613175650.png
 ---
 
 ## 前言
@@ -26,7 +26,7 @@ banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictur
 $ wget http://bochs.sourceforge.net/guestos/freedos-img.tar.gz
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210613172921.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210613172921.png)
 
 也可以到 bochs 官网下载 freedos 软盘映像文件，这里不作赘述。
 
@@ -38,7 +38,7 @@ $ tar -xzf freedos-img.tar.gz
 
 解压之后是一个文件夹
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210613173424.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210613173424.png)
 
 然后我们把 a.img 改成 freedos.img 并复制到我们的工作目录中。
 
@@ -54,7 +54,7 @@ boot: a
 
 5、启动 Bochs，待 FreeDos 启动完毕后格式化 B: 盘，如下图所示
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210613174335.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210613174335.png)
 
 注意，这里用的命令如下
 
@@ -96,7 +96,7 @@ B:\pmtest1.com
 
 这样 pmtest1.com 就运行起来了，如下图所示
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210613175153.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210613175153.png)
 
 ---
 

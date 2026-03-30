@@ -16,11 +16,11 @@ description: '我的个人的目前的 VSCode 加 Vim 插件的配置'
 
 - settings.json
 
-<https://gist.github.com/fanlumaster/62bbfab7ed9cd7db93b439f64f01bbeb>
+<https://gist.github.com/fanlusky/62bbfab7ed9cd7db93b439f64f01bbeb>
 
 - keybindings.json
 
-<https://gist.github.com/fanlumaster/3b58a7a8de255ca8eab77c9551467574>
+<https://gist.github.com/fanlusky/3b58a7a8de255ca8eab77c9551467574>
 
 应 B 站小伙伴的请求，我给我目前的 VSCode 的整体设置和快捷键设置的 json 文件的每一行都加上了注释，如下，
 

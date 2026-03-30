@@ -48,7 +48,7 @@ banner_img: https://i.imgur.com/38ScglI.jpg
 - 第二个问题，解决方法同上。
 - 第三个问题，经过更长时间的使用，发现它其实是可以自己整理内存占用的。
 - 第四个问题，这个暂时先将就一下，毕竟第一次之后就会变得异常顺滑。
-- 第五个问题，这个可以通过修改源码来解决，我将源码放入了我的[仓库](https://github.com/fanlumaster/YingziIME)。由于这个输入法的界面是使用 Gdip 来渲染的，所以我的解决思路就是去修改相关函数中的抗锯齿参数。
+- 第五个问题，这个可以通过修改源码来解决，我将源码放入了我的[仓库](https://github.com/fanlusky/YingziIME)。由于这个输入法的界面是使用 Gdip 来渲染的，所以我的解决思路就是去修改相关函数中的抗锯齿参数。
 
 好吧，到这里其实问题就已经解决了。剩余的就是代码的不断优化了。
 
@@ -72,7 +72,7 @@ banner_img: https://i.imgur.com/38ScglI.jpg
 
 最后，再贴一下原来的影子输入法和我微修过的影子输入法仓库：
 
-<https://github.com/fanlumaster/YingziIME>
+<https://github.com/fanlusky/YingziIME>
 
 这下，难道还不能在 VSCode 中编写一切吗？
 

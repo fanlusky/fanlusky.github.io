@@ -25,7 +25,7 @@ banner_img: https://i.imgur.com/og25OuR.png
 
 然后根据指示，进入我的设置页面，
 
-<https://https-fanlumaster-github-io.disqus.com/admin/settings/reactions/>
+<https://https-fanlusky-github-io.disqus.com/admin/settings/reactions/>
 
 把那个 reaction 的设置给 disable 掉就好了。
 

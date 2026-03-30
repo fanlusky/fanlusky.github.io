@@ -9,8 +9,8 @@ tags:
 - 《Linux C 一站式编程》
 categories:
 - C
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222716.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222716.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222716.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222716.png
 ---
 
 ## 前言
@@ -34,7 +34,7 @@ int pthread_create(pthread_t *restrict thread, const pthread_attr_t *restrict at
 
 ## 参数解释
 
-首先说明一下，`restrict` 是一个关键字，这个关键字主要作用在于告诉编译器可以放心对这个函数做优化，程序员自己会保证这些指针所指的内存区间互不重叠。具体参见：[C99 的 restrict 关键字](https://fanlumaster.github.io/2021/05/05/C99-%E7%9A%84-restrict-%E5%85%B3%E9%94%AE%E5%AD%97/)
+首先说明一下，`restrict` 是一个关键字，这个关键字主要作用在于告诉编译器可以放心对这个函数做优化，程序员自己会保证这些指针所指的内存区间互不重叠。具体参见：[C99 的 restrict 关键字](https://fanlusky.github.io/2021/05/05/C99-%E7%9A%84-restrict-%E5%85%B3%E9%94%AE%E5%AD%97/)
 
 ### thread
 

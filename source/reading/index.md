@@ -1,7 +1,7 @@
 ---
 title: 敝帚旧笥，怀土恋山
 date: 2023-06-05 16:54:02
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/arietty02.jpg
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/arietty02.jpg
 banner_img_height: 60
 banner_mask_alpha: 0.3
 comment: true

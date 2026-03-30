@@ -115,7 +115,7 @@ git config --list
 ### 2、设置或者更改用户名和邮箱
 
 ```bash
-git config --global user.name "fanlumaster"
+git config --global user.name "fanlusky"
 git config --global user.email "xxxxxxxxxx@qq.com"
 ```
 

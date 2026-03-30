@@ -10,3 +10,4 @@ package-lock.json
 yarn.lock
 /.obsidian/workspace.json
 /.obsidian/plugins/remember-cursor-position/
+pnpm-lock.yaml

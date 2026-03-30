@@ -17,7 +17,7 @@ banner_img: https://i.imgur.com/wObaT97.png
 
 首先，到官网（<https://www.kernel.org/>）下载内核。
 
-![20210407193656](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407193656.png)
+![20210407193656](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407193656.png)
 
 因为之前编译过一次内核，所以这次没有选择最新的 `5.11.11` 版本。
 
@@ -80,7 +80,7 @@ $ sudo gedit arch/x86/entry/syscalls/syscall_64.tbl
 
 如图所示，442 和 443 是自己添加的系统调用的调用号
 
-![20210408222421](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210408222421.png)
+![20210408222421](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210408222421.png)
 
 保存后关闭窗口。
 
@@ -96,7 +96,7 @@ $ sudo gedit include/linux/syscalls.h
 
 编辑文件，添加函数声明，这里的函数声明应该与上一步定义的系统调用中的函数一致
 
-![20210408222944](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210408222944.png)
+![20210408222944](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210408222944.png)
 
 添加系统调用的函数定义
 
@@ -119,7 +119,7 @@ SYSCALL_DEFINE1(second, int, number)
 }
 ```
 
-![20210408223101](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210408223101.png)
+![20210408223101](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210408223101.png)
 
 这里的两个函数就是自己增加的系统调用。
 
@@ -142,7 +142,7 @@ sudo make clean
 $ make menuconfig
 ```
 
-![20210407202347](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407202347.png)
+![20210407202347](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407202347.png)
 
 这里我们直接 Save，然后退出即可，然后开始编译
 
@@ -152,7 +152,7 @@ $ sudo make -j4
 
 `-j4` 表示将编译工作分成 4 个 jobs，每一个 job 分别在单独的核上运行。当然，前提是我们的机器得是多核的才行。比如，我的机器是 4 核的，这里就用 `-j4`。
 
-![20210407171823](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407171823.png)
+![20210407171823](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407171823.png)
 
 以上表示编译好了（只要最后不报错，就是编译成功了）。
 
@@ -160,7 +160,7 @@ $ sudo make -j4
 $ sudo make modules_install
 ```
 
-![20210407172434](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407172434.png)
+![20210407172434](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407172434.png)
 
 以上表示模块安装成功。
 
@@ -168,9 +168,9 @@ $ sudo make modules_install
 $ sudo make install
 ```
 
-![20210407172707](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210407172707.png)
+![20210407172707](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210407172707.png)
 
-![20210408223657](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210408223657.png)
+![20210408223657](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210408223657.png)
 
 最后执行 `reboot`（即重启），然后开机检查内核版本，发现变成了我们安装的 `5.11.11`。
 
@@ -178,7 +178,7 @@ $ sudo make install
 $ uname -r
 ```
 
-![20210408223858](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210408223858.png)
+![20210408223858](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210408223858.png)
 
 ### 检验添加的系统调用
 
@@ -208,7 +208,7 @@ int main()
 }
 ```
 
-![20210408224750](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210408224750.png)
+![20210408224750](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210408224750.png)
 
 ```bash
 $ sudo gcc -o test test.c
@@ -217,7 +217,7 @@ $ sudo ./test
 
 运行结果如下
 
-![20210408225000](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210408225000.png)
+![20210408225000](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210408225000.png)
 
 再输入命令
 
@@ -227,7 +227,7 @@ $ sudo dmesg
 
 查看系统进程，可以看到系统调用的输出
 
-![20210408225140](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210408225140.png)
+![20210408225140](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210408225140.png)
 
 可以发现，这里打印了我们之前 `printk` 中的语句。
 

@@ -15,9 +15,9 @@ banner_img: https://i.imgur.com/VbGaTOv.png
 
 进一步的理解，可以参考我当时上数据结构这门课得时候做的笔记：
 
-<https://www.cnblogs.com/fanlumaster/p/13829581.html>
+<https://www.cnblogs.com/fanlusky/p/13829581.html>
 
-<https://www.cnblogs.com/fanlumaster/p/13824006.html>
+<https://www.cnblogs.com/fanlusky/p/13824006.html>
 
 # AVL 树
 

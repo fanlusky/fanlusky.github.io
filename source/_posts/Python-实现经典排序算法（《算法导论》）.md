@@ -9,17 +9,17 @@ tags:
 - 算法设计与分析实验一
 categories:
 - 算法设计与分析
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222817.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222817.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222817.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222817.png
 ---
 
 ## 一、插入排序
 
 ### 1.1 算法描述
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426131930.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426131930.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426131850.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426131850.png)
 
 ### 1.2 算法实现
 
@@ -58,13 +58,13 @@ if __name__ == '__main__':
 
 ### 2.1 算法描述
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426132201.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426132201.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426132242.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426132242.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426132330.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426132330.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426132353.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426132353.png)
 
 ### 2.2 算法实现
 
@@ -136,11 +136,11 @@ if __name__ == '__main__':
 
 ### 3.1 算法描述
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426132538.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426132538.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426132551.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426132551.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426132622.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426132622.png)
 
 ### 3.2 算法实现
 
@@ -202,9 +202,9 @@ if __name__ == '__main__':
 
 ### 4.1 算法描述
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426132824.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426132824.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426132842.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426132842.png)
 
 ### 4.2 算法实现
 
@@ -258,9 +258,9 @@ if __name__ == '__main__':
 
 ### 5.1 算法描述
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426133153.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426133153.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426133210.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426133210.png)
 
 上图是 COUNTING-SORT 在输入数组 A[1..8] 上的处理过程，其中 A 中的每一个元素都是不大于 k = 5 的非负整数。(a) 是第 5 行执行后的数组 A 和辅助数组 C 的情况。(b) 是第 8 行执行后，数组 C 的情况。(c)~(e) 分别显示了第 10~12 行的循环体迭代了一次、两次和三次之后，输出数组 B 和辅助数组 C 的情况。其中，数组 B 中只有浅色阴影部分有元素值填充。(f) 是最终排好序的数组 B。
 
@@ -313,9 +313,9 @@ if __name__ == '__main__':
 
 ### 6.1 算法描述
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426133346.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426133346.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426133358.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426133358.png)
 
 ### 6.2 算法实现
 
@@ -407,7 +407,7 @@ plt.savefig(fname='insert.svg', format='svg')
 plt.show()
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210426214702.svg)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210426214702.svg)
 
 这里只绘制了一个插入排序，如果想绘制其他的图像，只需要将代码中的相应的排序方法给替换掉，然后重新跑一遍代码即可。不过，在实际测试时，如果要替换成其他的排序算法来测试，那么，相应地也要调整测试数据（也就是输入的规模），否则快速排序在最坏情况下的递归会耗尽内存。
 

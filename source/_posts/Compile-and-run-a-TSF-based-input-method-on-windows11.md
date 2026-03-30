@@ -42,7 +42,7 @@ TSF 想必是不用我过多介绍了，这是微软的一个文本输入法框�
 
 好吧，本篇博客的重心是在编译运行微软的那个 demo，在 Windows11 系统上。如果上面的编译环境配置完毕且没有问题，那么，接下来的步骤其实很简单。
 
-第一步，clone 一下我的[仓库](https://github.com/fanlumaster/MicrosoftSampleIME)，
+第一步，clone 一下我的[仓库](https://github.com/fanlusky/MicrosoftSampleIME)，
 
 ![](https://i.imgur.com/tmaV6pl.png)
 

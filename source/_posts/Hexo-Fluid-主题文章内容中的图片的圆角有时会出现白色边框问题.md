@@ -7,8 +7,8 @@ tags:
 - Fluid
 categories:
 - Hexo
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210608124424.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210608124424.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210608124424.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210608124424.png
 ---
 
 ### 前言
@@ -19,21 +19,21 @@ Fluid 主题的版本是 `hexo-theme-fluid@1.8.10`。
 
 如下图所示
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210608105314.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210608105314.png)
 
 左下角这里会出现一点点白色的边框。其实其他三个角也会出现，只是在这张图片上不太明显。
 
 然后我刷新以下页面，或者点击一下图片然后再还原，这个白色的边框就会消失。如下图所示
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210608105347.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210608105347.png)
 
 而且，这个问题随着圆角的值越大会更明显，即白色边框更加明显(虽然还是需要仔细盯着看哈哈)，如下图所示
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210608114447.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210608114447.png)
 
 然后，正常的情况是下面这样的
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210608114512.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210608114512.png)
 
 ### 个人的暂时解决方法
 

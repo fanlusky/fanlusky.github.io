@@ -22,4 +22,4 @@ stat -fc %s .
 
 作用是查看 Block Size 的数值。具体效果如下
 
-![20210405222210](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210405222210.png)
+![20210405222210](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210405222210.png)

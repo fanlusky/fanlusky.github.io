@@ -9,8 +9,8 @@ tags:
 - 数值积分
 categories:
 - 计算方法
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222616.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222616.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222616.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222616.png
 ---
 
 先从最简单的一次插值(n = 1) 开始, 求作一次式 $L_{1}(x)$, 使之满足条件

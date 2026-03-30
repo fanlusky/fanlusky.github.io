@@ -196,7 +196,7 @@ git log命令可以查看以往仓库中提交的日志。包括可以查看什�
 ```shell
 $ git log
 commit df0031bfdc76a15aa18a2490201439d92597b3d8 (HEAD -> master)
-Author: fanlumaster <1730976608@qq.com>
+Author: fanlusky <1730976608@qq.com>
 Date:   Wed Jan 8 12:57:06 2025 +0800
 
     First commit
@@ -213,7 +213,7 @@ Author 栏中显示我们给 Git 设置的用户名和邮箱地址。Date 栏中
 ```shell
 $ git log --pretty=short
 commit df0031bfdc76a15aa18a2490201439d92597b3d8 (HEAD -> master)
-Author: fanlumaster <1730976608@qq.com>
+Author: fanlusky <1730976608@qq.com>
 
     First commit
 ```
@@ -239,7 +239,7 @@ $ git log -p
 ```shell
 $ git log -p README.md
 commit df0031bfdc76a15aa18a2490201439d92597b3d8 (HEAD -> master)
-Author: fanlumaster <1730976608@qq.com>
+Author: fanlusky <1730976608@qq.com>
 Date:   Wed Jan 8 12:57:06 2025 +0800
 
     First commit
@@ -327,13 +327,13 @@ $ git commit -m "Add index"
 ```shell
 $ git log
 commit 7b010619fcd72df06dc6e91df26d20d435099e44 (HEAD -> master)
-Author: fanlumaster <1730976608@qq.com>
+Author: fanlusky <1730976608@qq.com>
 Date:   Wed Jan 8 13:37:13 2025 +0800
 
     Add index
 
 commit df0031bfdc76a15aa18a2490201439d92597b3d8
-Author: fanlumaster <1730976608@qq.com>
+Author: fanlusky <1730976608@qq.com>
 Date:   Wed Jan 8 12:57:06 2025 +0800
 
     First commit
@@ -512,25 +512,25 @@ Merge made by the 'ort' strategy.
 $ git log --graph
 *   commit ae1fcc3cd7453f00818f62a6b1cbe3e139568cf0 (HEAD -> master)
 |\  Merge: 7b01061 b6b12fd
-| | Author: fanlumaster <1730976608@qq.com>
+| | Author: fanlusky <1730976608@qq.com>
 | | Date:   Wed Jan 8 14:08:32 2025 +0800
 | | 
 | |     Merge branch 'feature-A'
 | | 
 | * commit b6b12fd3a8a756daf0154927e6c93bd1588745e4 (feature-A)
-|/  Author: fanlumaster <1730976608@qq.com>
+|/  Author: fanlusky <1730976608@qq.com>
 |   Date:   Wed Jan 8 14:02:31 2025 +0800
 |   
 |       Add feature-A
 | 
 * commit 7b010619fcd72df06dc6e91df26d20d435099e44
-| Author: fanlumaster <1730976608@qq.com>
+| Author: fanlusky <1730976608@qq.com>
 | Date:   Wed Jan 8 13:37:13 2025 +0800
 | 
 |     Add index
 | 
 * commit df0031bfdc76a15aa18a2490201439d92597b3d8
-  Author: fanlumaster <1730976608@qq.com>
+  Author: fanlusky <1730976608@qq.com>
   Date:   Wed Jan 8 12:57:06 2025 +0800
   
       First commit
@@ -542,19 +542,19 @@ $ git log --graph
 ```shell
 $ git log --graph
 * commit 755c89df251b7f277c53efe4a4b010d1294c39e3 (HEAD -> master, feature-A)
-| Author: fanlumaster <1730976608@qq.com>
+| Author: fanlusky <1730976608@qq.com>
 | Date:   Wed Jan 8 14:30:28 2025 +0800
 | 
 |     Add feature-A
 | 
 * commit 942824799649decfac9a0b0f1ec7398f426c871a
-| Author: fanlumaster <1730976608@qq.com>
+| Author: fanlusky <1730976608@qq.com>
 | Date:   Wed Jan 8 14:29:38 2025 +0800
 | 
 |     Add index
 | 
 * commit 3420049549fe811eb0e754367fce2d4a1289a5c1
-  Author: fanlumaster <1730976608@qq.com>
+  Author: fanlusky <1730976608@qq.com>
   Date:   Wed Jan 8 14:28:05 2025 +0800
   
       First commit
@@ -760,38 +760,38 @@ Fix conflict
 $ git log --graph
 *   commit 8987c986da5f39f0f2b3de509ce7806a70af9fa3 (HEAD -> master)
 |\  Merge: ae1fcc3 5138c2b
-| | Author: fanlumaster <1730976608@qq.com>
+| | Author: fanlusky <1730976608@qq.com>
 | | Date:   Wed Jan 8 17:09:37 2025 +0800
 | | 
 | |     Merge branch 'fix-B'
 | | 
 | * commit 5138c2b7910ef4e0cff038b2e5c33a3458adbe6b (fix-B)
-| | Author: fanlumaster <1730976608@qq.com>
+| | Author: fanlusky <1730976608@qq.com>
 | | Date:   Wed Jan 8 16:35:56 2025 +0800
 | | 
 | |     Fix B
 | |   
 * |   commit ae1fcc3cd7453f00818f62a6b1cbe3e139568cf0
 |\ \  Merge: 7b01061 b6b12fd
-| |/  Author: fanlumaster <1730976608@qq.com>
+| |/  Author: fanlusky <1730976608@qq.com>
 |/|   Date:   Wed Jan 8 14:08:32 2025 +0800
 | |   
 | |       Merge branch 'feature-A'
 | | 
 | * commit b6b12fd3a8a756daf0154927e6c93bd1588745e4 (feature-A)
-|/  Author: fanlumaster <1730976608@qq.com>
+|/  Author: fanlusky <1730976608@qq.com>
 |   Date:   Wed Jan 8 14:02:31 2025 +0800
 |   
 |       Add feature-A
 | 
 * commit 7b010619fcd72df06dc6e91df26d20d435099e44
-| Author: fanlumaster <1730976608@qq.com>
+| Author: fanlusky <1730976608@qq.com>
 | Date:   Wed Jan 8 13:37:13 2025 +0800
 | 
 |     Add index
 | 
 * commit df0031bfdc76a15aa18a2490201439d92597b3d8
-  Author: fanlumaster <1730976608@qq.com>
+  Author: fanlusky <1730976608@qq.com>
   Date:   Wed Jan 8 12:57:06 2025 +0800
   
       First commit
@@ -931,45 +931,45 @@ Successfully rebased and updated refs/heads/feature-C.
 ```shell
 $ git log --graph
 * commit e2f92412f01ffc4c3fd00cbdadbee36cc15366d7 (HEAD -> feature-C)
-| Author: fanlumaster <1730976608@qq.com>
+| Author: fanlusky <1730976608@qq.com>
 | Date:   Wed Jan 8 17:17:45 2025 +0800
 | 
 |     Add feature-C
 |   
 *   commit 8987c986da5f39f0f2b3de509ce7806a70af9fa3 (master)
 |\  Merge: ae1fcc3 5138c2b
-| | Author: fanlumaster <1730976608@qq.com>
+| | Author: fanlusky <1730976608@qq.com>
 | | Date:   Wed Jan 8 17:09:37 2025 +0800
 | | 
 | |     Merge branch 'fix-B'
 | | 
 | * commit 5138c2b7910ef4e0cff038b2e5c33a3458adbe6b (fix-B)
-| | Author: fanlumaster <1730976608@qq.com>
+| | Author: fanlusky <1730976608@qq.com>
 | | Date:   Wed Jan 8 16:35:56 2025 +0800
 | | 
 | |     Fix B
 | |   
 * |   commit ae1fcc3cd7453f00818f62a6b1cbe3e139568cf0
 |\ \  Merge: 7b01061 b6b12fd
-| |/  Author: fanlumaster <1730976608@qq.com>
+| |/  Author: fanlusky <1730976608@qq.com>
 |/|   Date:   Wed Jan 8 14:08:32 2025 +0800
 | |   
 | |       Merge branch 'feature-A'
 | | 
 | * commit b6b12fd3a8a756daf0154927e6c93bd1588745e4 (feature-A)
-|/  Author: fanlumaster <1730976608@qq.com>
+|/  Author: fanlusky <1730976608@qq.com>
 |   Date:   Wed Jan 8 14:02:31 2025 +0800
 |   
 |       Add feature-A
 | 
 * commit 7b010619fcd72df06dc6e91df26d20d435099e44
-| Author: fanlumaster <1730976608@qq.com>
+| Author: fanlusky <1730976608@qq.com>
 | Date:   Wed Jan 8 13:37:13 2025 +0800
 | 
 |     Add index
 | 
 * commit df0031bfdc76a15aa18a2490201439d92597b3d8
-  Author: fanlumaster <1730976608@qq.com>
+  Author: fanlusky <1730976608@qq.com>
   Date:   Wed Jan 8 12:57:06 2025 +0800
   
       First commit
@@ -1003,7 +1003,7 @@ Git 是分散型版本管理系统，但我们前面所学习的，都是针对�
 在 GitHub 上创建的仓库路径为“git@github.com:用户名/git-tutorial.git”。现在我们用 git remote add 命令将它设置成本地仓库的远程仓库。
 
 ```shell
-$ git remote add origin git@github.com:fanlumaster/git-tutorial.git
+$ git remote add origin git@github.com:fanlusky/git-tutorial.git
 ```
 
 按照上述格式执行 git remote add 命令之后，Git 会自动将 git@github.com:github-book/git-tutorial.git 远程仓库的名称设置为 origin（标识符）。
@@ -1023,7 +1023,7 @@ Compressing objects: 100% (8/8), done.
 Writing objects: 100% (20/20), 1.51 KiB | 1.51 MiB/s, done.
 Total 20 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: Resolving deltas: 100% (3/3), done.
-To github.com:fanlumaster/git-tutorials.git
+To github.com:fanlusky/git-tutorials.git
  * [new branch]      master -> master
 branch 'master' set up to track 'origin/master'.
 ```
@@ -1048,9 +1048,9 @@ $ git push -u origin feature-D
 otal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: 
 remote: Create a pull request for 'feature-D' on GitHub by visiting:
-remote:      https://github.com/fanlumaster/git-tutorials/pull/new/feature-D
+remote:      https://github.com/fanlusky/git-tutorials/pull/new/feature-D
 remote: 
-To github.com:fanlumaster/git-tutorials.git
+To github.com:fanlusky/git-tutorials.git
  * [new branch]      feature-D -> feature-D
 branch 'feature-D' set up to track 'origin/feature-D'.
 ```
@@ -1070,7 +1070,7 @@ branch 'feature-D' set up to track 'origin/feature-D'.
 首先我们换到其他目录下，将 GitHub 上的仓库 clone 到本地。注意不要与之前操作的仓库在同一目录下。
 
 ```shell
-$ git clone git@github.com:fanlumaster/git-tutorials.git
+$ git clone git@github.com:fanlusky/git-tutorials.git
 Cloning into 'git-tutorials'...
 remote: Enumerating objects: 20, done.
 remote: Counting objects: 100% (20/20), done.
@@ -1144,7 +1144,7 @@ Delta compression using up to 8 threads
 Compressing objects: 100% (2/2), done.
 Writing objects: 100% (3/3), 280 bytes | 280.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-To github.com:fanlumaster/git-tutorials.git
+To github.com:fanlusky/git-tutorials.git
    f5fa424..75efe92  feature-D -> feature-D
 ```
 
@@ -1161,7 +1161,7 @@ remote: Counting objects: 100% (5/5), done.
 remote: Compressing objects: 100% (2/2), done.
 remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
 Unpacking objects: 100% (3/3), 260 bytes | 86.00 KiB/s, done.
-From github.com:fanlumaster/git-tutorials
+From github.com:fanlusky/git-tutorials
  * branch            feature-D  -> FETCH_HEAD
    f5fa424..75efe92  feature-D  -> origin/feature-D
 Updating f5fa424..75efe92

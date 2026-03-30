@@ -9,8 +9,8 @@ tags:
 - 算法
 categories:
 - 数据结构与算法
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222450.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222450.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222450.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222450.png
 ---
 
 #### 题目
@@ -210,7 +210,7 @@ public static Node reverseEdge(Node from) {
 
 测试所用的二叉树
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210404144053.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210404144053.png)
 
 ```java
 public static void main(String[] args) {

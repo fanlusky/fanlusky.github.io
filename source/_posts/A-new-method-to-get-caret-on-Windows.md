@@ -17,7 +17,7 @@ description: '一种新的获取 Windows 窗口的文本光标的方式(依旧�
 
 这个讨论中提到的方法是在以前的比较经典的三种方法之外的获取 Windows 的窗口中的 caret 的坐标的另一种方法，以前的三种方法，可以在我的这个仓库中看到，
 
-<https://github.com/fanlumaster/FullIME>
+<https://github.com/fanlusky/FullIME>
 
 对于接下来要提到的这种新的方式，是使用到了 Windows 提供的 `IUIAutomationTextPattern` 这个组件。以前的方法是可以在 Chrome 和一些经典的比如记事本这样的传统的 Windows 应用中获取文本光标，对于我们经常用到的另外一个软件——Windows Terminal 则是无能为力，这个新的方法所解决问题，基本上就是 Windows Terminal 这个软件的获取文本光标的问题，以及开始菜单，和一些其他基于 WinUI 框架的窗口软件，今天偶然在 ahk 的论坛发现有人给出了实现，这里就记录一下，
 

@@ -7,8 +7,8 @@ tags:
 - 小知识
 categories:
 - Python
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222525.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222525.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222525.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222525.png
 ---
 
 r 代表 raw 的意思. 表示要将字符串中所有字符当成原始字符来看待. 比如 `\n` 在普通字符串里表示换行的意思, 而在带有 r 标识的字符串中, 它就是两个字符的组合.

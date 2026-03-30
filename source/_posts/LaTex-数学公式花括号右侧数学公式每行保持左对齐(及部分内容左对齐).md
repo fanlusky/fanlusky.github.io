@@ -6,8 +6,8 @@ tags:
 - LaTex
 categories:
 - LaTex
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210601002118.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210601002118.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210601002118.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210601002118.png
 description: '记录 LaTex 数学公式中多行公式保持左对齐的书写方法，方便用时备查。'
 ---
 

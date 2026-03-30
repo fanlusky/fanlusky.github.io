@@ -7,8 +7,8 @@ tags:
 - Java 语言基础
 categories:
 - Java
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20211004171202.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20211004171202.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20211004171202.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20211004171202.png
 ---
 
 今天适逢学弟问这个问题，这里就记录一下。说实话，关于 `switch`，我之前也是有点犯迷糊的，今天翻阅《On Java 8》，发现写得没有 Oracle 的官方教程好。所以，就把官方教程中的例子给拿出来咀嚼一下。

@@ -20,7 +20,7 @@ banner_img: https://i.imgur.com/694deko.png
 
 首先，在站点目录的 `url.py` 中编写 URL 规则
 
-![20210413195445](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210413195445.png)
+![20210413195445](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210413195445.png)
 
 这个是创建项目（使用 PyCharm）时自动生成的目录。
 
@@ -40,7 +40,7 @@ urlpatterns = [
 
 然后在 index 文件夹下编写 `urls.py`，上面引用的 `index.urls` 就是这个文件
 
-![20210413200431](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210413200431.png)
+![20210413200431](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210413200431.png)
 
 ```py
 from django.urls import path
@@ -69,7 +69,7 @@ def index(request):
 
 最后，我们可以运行项目，然后在浏览器中打开 `http://127.0.0.1:8000/` 测试一下了
 
-![20210413200846](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210413200846.png)
+![20210413200846](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210413200846.png)
 
 因为我们之前的 `path()` 第一个参数设置的是空字符串，所以，我们在浏览器地址栏输入的地址后，就会最终执行 `index()` 函数，然后显示相关信息。
 
@@ -128,7 +128,7 @@ def mydate(request, year, month, day):
 
 然后运行，
 
-![20210413201701](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210413201701.png)
+![20210413201701](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210413201701.png)
 
 这里是正确的写法。我踩的坑其实是把正则表达式给写错了，具体就是多写了一个花括号 `}`，然后访问 URL 时就总是 404。
 
@@ -148,8 +148,8 @@ APPEND_SLASH = False
 
 `APPEND_SLASH` 在源码中的位置 ↓
 
-![20210413202800](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210413202800.png)
+![20210413202800](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210413202800.png)
 
-![20210413202721](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210413202721.png)
+![20210413202721](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210413202721.png)
 
 参考：[stackoverflow](https://stackoverflow.com/questions/45784191/django-is-append-slash-set-to-true-even-if-not-in-settings-py) [文档](https://www.osgeo.cn/django/topics/http/urls.html) [官方文档](https://docs.djangoproject.com/zh-hans/3.2/topics/http/urls/) 《玩转 Django 2.0 - 黄永祥》

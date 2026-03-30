@@ -428,7 +428,7 @@ footer:
 index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
-  banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/arietty02.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/arietty02.jpg
 
   # 头图高度，屏幕百分比
   # Height ratio of banner image
@@ -499,13 +499,13 @@ index:
 # Post Page
 #---------------------------
 post:
-  banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527215327.png
+  banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527215327.png
   banner_img_height: 70
   banner_mask_alpha: 0.3
 
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
   # Path of the default post cover when `index_img` is not set. If both are empty, no image will be displayed
-  default_index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527215327.png
+  default_index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527215327.png
 
   # 文章标题下方的元信息
   # Meta information below title
@@ -670,7 +670,7 @@ utterances:
 # Based on third-party service
 # See: https://disqus.com
 disqus:
-  shortname: https-fanlumaster-github-io
+  shortname: https-fanlusky-github-io
   # 以下为 Disqusjs 支持, 国内用户如果想使用 Disqus 建议配合使用
   # The following are Disqusjs configurations, please ignore if DisqusJS is not required
   # See: https://github.com/SukkaW/DisqusJS
@@ -741,7 +741,7 @@ waline:
 # Based on GitHub Discussions, similar to Utterances
 # See: https://giscus.app/
 giscus:
-  repo: fanlumaster/fanlumaster.github.io
+  repo: fanlusky/fanlusky.github.io
   repo-id: MDEwOlJlcG9zaXRvcnkzNDA5NTk0ODM=
   category: Announcements
   category-id: DIC_kwDOFFKg-84Chwfe
@@ -792,7 +792,7 @@ twikoo:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/arietty02.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/arietty02.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -803,7 +803,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/arietty02.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/arietty02.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -832,7 +832,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/arietty02.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/arietty02.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -849,7 +849,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/arietty02.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/arietty02.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:
@@ -861,7 +861,7 @@ about:
   icons:
     - {
         class: "iconfont icon-github-fill",
-        link: "https://github.com/fanlumaster",
+        link: "https://github.com/fanlusky",
         tip: "GitHub",
       }
     - {
@@ -901,7 +901,7 @@ about:
       }
     - {
         class: "iconfont icon-douban-fill",
-        link: "https://www.douban.com/people/fanlumaster",
+        link: "https://www.douban.com/people/fanlusky",
         tip: "douban",
       }
 
@@ -934,7 +934,7 @@ page404:
 #---------------------------
 links:
   enable: true
-  banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/arietty02.jpg
+  banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/arietty02.jpg
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle: 桃李春风一杯酒

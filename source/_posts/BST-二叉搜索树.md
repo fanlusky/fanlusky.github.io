@@ -248,7 +248,7 @@ int main( )
 
 测试结果：
 
-![20201015170025](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20201015170025.png)
+![20201015170025](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20201015170025.png)
 
 #### 定义错误的头文件 fatal.h
 
@@ -264,8 +264,8 @@ int main( )
 
 删除具有 1 个儿子的节点 4 的前后情况：
 
-![20201015165134](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20201015165134.png)
+![20201015165134](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20201015165134.png)
 
 删除具有 2 个儿子的节点 2 的前后情况：
 
-![20201015165708](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20201015165708.png)
+![20201015165708](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20201015165708.png)

@@ -8,13 +8,13 @@ tags:
 - 小玩意
 categories:
 - Python
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222542.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222542.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222542.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222542.png
 ---
 
 今天在使用 MusicBee 听歌时, 发现它的歌词不能够自动换行, 然后将歌词粘贴到 P有Charm 中, 发现有很多这个 `NBSP`,
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210520224314.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210520224314.png)
 
 根据以往的经验, 这和 html 中硬编码的空格 `&nbsp` 有点像, 然后就直接使用 Python 的 `replace()` 函数给替换掉之后, 发现歌词就可以正常换行了.
 

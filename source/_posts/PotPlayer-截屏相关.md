@@ -21,10 +21,10 @@ banner_img: https://i.imgur.com/npBk6rT.png
 
 注意, 里面有一个选项是同时截取字幕(如果有的话), 这个默认是关闭的, 如果有需要截字幕的要仔细看一下.
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20201206205824.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20201206205824.png)
 
 附: 截图默认存放位置 
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20201206210401.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20201206210401.png)
 
 ![](https://i.imgur.com/YmBSee0.png)

@@ -19,8 +19,8 @@ banner_img: https://i.imgur.com/S0WTaWQ.png
 
     D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64
 
-![20210425143545](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210425143545.png)
+![20210425143545](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210425143545.png)
 
 将这个路径添加到系统高级环境变量中的 Path 中之后，再次在命令行敲入 `cl`，成功输出正常的提示信息
 
-![20210425143751](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210425143751.png)
+![20210425143751](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210425143751.png)

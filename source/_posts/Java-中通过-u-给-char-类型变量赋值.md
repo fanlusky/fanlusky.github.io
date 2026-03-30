@@ -15,7 +15,7 @@ description: Java 小知识点
 
 部分 Unicode 码如下
 
-![20210331004349](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210331004349.png)
+![20210331004349](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210331004349.png)
 
 下面是 Java 中打印通过 Unicode 码赋值的 char 类型变量
 
@@ -32,4 +32,4 @@ public static void main(String[] args) {
 
 输出为
 
-![20210331005101](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210331005101.png)
+![20210331005101](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210331005101.png)

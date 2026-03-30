@@ -8,8 +8,8 @@ tags:
 - 算法设计与分析
 categories:
 - 算法设计与分析
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210601164944.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210601164944.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210601164944.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210601164944.png
 ---
 
 ## 算法思路
@@ -30,13 +30,13 @@ $$
 
 ### 伪码
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210601164449.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210601164449.png)
 
 ### 一个例子
 
-![图1](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210601164657.png)
+![图1](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210601164657.png)
 
-![根据图1计算出的矩阵序列](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210601164538.png)
+![根据图1计算出的矩阵序列](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210601164538.png)
 
 ## Python 代码实现
 

@@ -15,4 +15,4 @@ Java 中的 char 类型初始值是 `\u0000`，这个表示 Unicode 码中的 `0
 
 Unicode 表部分如下
 
-![20210331004349](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210331004349.png)
+![20210331004349](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210331004349.png)

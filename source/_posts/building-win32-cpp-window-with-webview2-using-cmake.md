@@ -248,7 +248,7 @@ int CALLBACK WinMain(_In_ HINSTANCE hInstance, _In_ HINSTANCE hPrevInstance,
 
                             // Schedule an async task to navigate to Bing
                             auto hr = webview->Navigate(
-                                L"https://fanlumaster.github.io/");
+                                L"https://fanlusky.github.io/");
 
                             // <NavigationEvents>
                             // Step 4 - Navigation events

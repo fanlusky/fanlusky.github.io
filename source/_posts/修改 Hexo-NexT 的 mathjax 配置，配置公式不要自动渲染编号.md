@@ -16,6 +16,6 @@ description: MathJax 去掉编号
 
 找到相关配置文件，如图所示
 
-![20210328210344](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210328210344.png)
+![20210328210344](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210328210344.png)
 
 这里将 `tags: 'ams'` 这一行删掉即可。

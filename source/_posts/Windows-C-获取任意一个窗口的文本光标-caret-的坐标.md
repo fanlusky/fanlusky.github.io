@@ -181,7 +181,7 @@ int main() {
 
 我的输入法仓库如下，
 
-<https://github.com/fanlumaster/FullIME>
+<https://github.com/fanlusky/FullIME>
 
 大体上，上面就是我解决这个问题的心路历程，这个博客更多还是写给将来的我来回忆的吧。我在昨天白天也研究出了另一种方法，那个方法如我前一篇博客所说，只能解决像 word、notepad、文件管理器这种使用 wpf、winform 技术的经典应用程序中的获取 caret 的问题。
 

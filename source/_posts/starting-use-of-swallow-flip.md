@@ -53,6 +53,6 @@ banner_img: https://i.postimg.cc/5x62TXNp/image.png
 
 ----------
 
-[^1]: <https://github.com/fanlumaster/fcitx5-FanIME>
+[^1]: <https://github.com/fanlusky/fcitx5-FanIME>
 
 

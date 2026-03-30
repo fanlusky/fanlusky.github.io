@@ -21,7 +21,7 @@ hexo init
 
 <!-- more -->
 
-![20210321221904](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321221904.png)
+![20210321221904](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321221904.png)
 
 然后执行：
 
@@ -31,24 +31,24 @@ hexo g
 
 生成静态文件，命令执行后文件夹如下：
 
-![20210321222053](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321222053.png)
+![20210321222053](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321222053.png)
 
 然后，执行 `hexo s` 命令，在本地浏览器预览一下
 
-![20210321222858](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321222858.png)
+![20210321222858](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321222858.png)
 
-![20210321222821](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321222821.png)
+![20210321222821](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321222821.png)
 
 之后，配置根目录下的 `_config.yml` 文件
 
 ```yml
 deploy:
   type: git
-  repository: git@github.com:fanlumaster/fanlumaster.github.io.git
+  repository: git@github.com:fanlusky/fanlusky.github.io.git
   branch: master
 ```
 
-![20210321222711](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321222711.png)
+![20210321222711](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321222711.png)
 
 ### 安装插件和部署到 Github
 
@@ -64,15 +64,15 @@ npm install hexo-deployer-git --save
 hexo d
 ```
 
-![20210321224721](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321224721.png)
+![20210321224721](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321224721.png)
 
-可以访问 <https://fanlumaster.github.io> 来检验是否部署成功，下面是部署成功的页面
+可以访问 <https://fanlusky.github.io> 来检验是否部署成功，下面是部署成功的页面
 
-![20210321224948](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321224948.png)
+![20210321224948](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321224948.png)
 
 我们再看一下我们的 Github 仓库
 
-![20210322002245](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210322002245.png)
+![20210322002245](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210322002245.png)
 
 发现多了好多文件，到这里，基本的部署就完成了，接下来就是要学习如何美化博客了。
 
@@ -90,13 +90,13 @@ git clone https://github.com/theme-next/hexo-theme-next themes/next
 
 然后，启用主题。打开根目录下站点配置文件 `_config.yml`，找到 `theme` 字段，并将其值更改为 `next`，如下
 
-![20210321225901](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321225901.png)
+![20210321225901](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321225901.png)
 
 然后，打开主题的 `_config.yml` 文件，不是**站点文件**，找到 `Scheme Settings`
 
-![20210321230047](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321230047.png)
+![20210321230047](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321230047.png)
 
-![20210321230228](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321230228.png)
+![20210321230228](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321230228.png)
 
 `next` 主题有四个样式，想用哪一个，就把其注释给取消即可，这里使用的是 `Gemini` 主题。
 
@@ -106,7 +106,7 @@ git clone https://github.com/theme-next/hexo-theme-next themes/next
 
 注意，这里有一个**坑**，修改主题的 `_config.yml` 配置时，这里是更换 `scheme`，没有将原来的 `scheme` 给注释掉，导致会出现 `ERROR Theme config load failed.`
 
-![20210321232200](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321232200.png)
+![20210321232200](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321232200.png)
 
 解决完坑之后，我们重新执行那三条指令：
 
@@ -116,7 +116,7 @@ hexo g # 生成静态文件
 hexo s # 生成本地预览
 ```
 
-![20210321233034](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321233034.png)
+![20210321233034](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321233034.png)
 
 到这里，主题就更换成功了。
 
@@ -124,7 +124,7 @@ hexo s # 生成本地预览
 
 打开站点根目录下的 `_config.yml`，设置如下内容
 
-![20210401231748](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210401231748.png)
+![20210401231748](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210401231748.png)
 
 参数说明：
 
@@ -150,7 +150,7 @@ hexo new 'blog_name' # blog_name 填入文章名称
 
 Hexo 会帮我们在 `..\source\_posts` 下生成相关 `md` 文件
 
-![20210321234534](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321234534.png)
+![20210321234534](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321234534.png)
 
 #### _config.yml 文件
 
@@ -158,7 +158,7 @@ Hexo 会帮我们在 `..\source\_posts` 下生成相关 `md` 文件
 
 #### scaffolds 文件
 
-![20210321234856](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321234856.png)
+![20210321234856](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321234856.png)
 
 模板文件夹，新建文章时，Hexo 会根据 `scaffolds` 来建立文件。默认的模板有三种 `draft.md`、`page.md`、`post.md`，我们也可以在该文件夹下创建属于自己定制的模板，推荐格式如下：
 
@@ -222,4 +222,4 @@ Hexo 会帮我们在 `..\source\_posts` 下生成相关 `md` 文件
 1. hexo s -g # 生成本地预览
 2. hexo d -g # 生成并上传
 
-![20210322002245](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210322002245.png)
+![20210322002245](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210322002245.png)

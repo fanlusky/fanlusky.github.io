@@ -15,6 +15,6 @@ Java 中的 Block 就是使用花括号括起来来的一段代码块。
 
 示例如下
 
-![20210330234610](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210330234610.png)
+![20210330234610](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210330234610.png)
 
 Block 中的代码按顺序执行，需要注意的是，Block 中的变量是本地变量（local variables），也可以叫局部变量。

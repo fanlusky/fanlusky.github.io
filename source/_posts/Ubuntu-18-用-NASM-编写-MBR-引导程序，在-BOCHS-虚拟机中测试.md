@@ -8,8 +8,8 @@ tags:
 - bochs
 categories:
 - 操作系统
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210606232013.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210606232013.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210606232013.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210606232013.png
 ---
 
 ## 前言
@@ -88,7 +88,7 @@ $ bochs
 
 解决了问题之后，再重新输入 `bochs` 命令，发现已经安装成功了
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210419134701.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210419134701.png)
 
 ## 配置 bochs
 
@@ -101,7 +101,7 @@ $ bochs
 
 我们可以通过 `ls -a` 命令来看一下 bochs 安装目录下的所有文件：
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210607000942.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210607000942.png)
 
 在这里，我们选择在自己的目录下新建一个 bochsrc 配置文件，如下
 
@@ -141,7 +141,7 @@ mouse: enabled=0
 keyboard:keymap=/usr/local/share/bochs/keymaps/x11-pc-us.map
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210607183851.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210607183851.png)
 
 ## 编写 MBR 引导程序，在 bochs 虚拟机中测试
 
@@ -178,7 +178,7 @@ $ nasm boot.asm -o boot.bin
 
 然后在相应的目录下我们可以看到多了一个 512 字节的 boot.bin 文件，如下
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210607184811.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210607184811.png)
 
 这个文件就要被我们写入到软盘里面。这里当然可以写入到一个真实的空白软盘上，但是我们这里选择使用 bochs 来虚拟出我们所需要的软盘。
 
@@ -204,7 +204,7 @@ $ bximage
 
 然后在问到要创建 hd(硬盘) 还是 fd(软盘) 时，输入 fd，之后一直默认回车即可
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210607185713.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210607185713.png)
 
 ### 将引导扇区写入软盘
 
@@ -214,7 +214,7 @@ $ bximage
 $ dd if=boot.bin of=a.img bs=512 count=1 conv=notrunc
 ```
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210607190246.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210607190246.png)
 
 这里简单介绍一下 dd 命令。
 
@@ -240,9 +240,9 @@ $ bochs -f bochsrc
 
 注意，如果这里输入命令后出现的是一个什么都没有的一片黑色的界面的话，那是因为我们这里是带调试模式的 bochs，那么，还需要再 bochs 提示符之后输入 "c"，然后回车，即可看到我们想要的效果了。
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210607190703.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210607190703.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210607190628.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210607190628.png)
 
 注：关于这个 `-f` 后面的这个 bochsrc 配置文件，因为这里我是把它与 boot.bin 一起放在同一个目录下，所以这里直接就输入了 bochsrc，如果是放在其他目录下，则需要使用 bochsrc 的绝对路径。而且，前面也说了，其实我们这里不需要 `-f` 及后面的内容，因为我们在执行 `bochs` 命令时它会自己找到当前目录下的配置文件。
 

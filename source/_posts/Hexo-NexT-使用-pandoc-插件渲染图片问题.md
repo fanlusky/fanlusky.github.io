@@ -13,12 +13,12 @@ description: 解决 Hexo Next 使用 pandoc 插件渲染图片导致图片下方
 
 ### 问题复现
 
-![20210322232830](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210322232830.png)
+![20210322232830](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210322232830.png)
 
 这个图片的原来的 `Markdown` 文本为
 
 ```md
-![20210321222711](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210321222711.png)
+![20210321222711](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210321222711.png)
 ```
 
 显然，`pandoc` 是将 `[]` 中的内容给渲染到图片的下方了。
@@ -43,7 +43,7 @@ hexo s
 
 检验成效
 
-![20210322233357](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210322233357.png)
+![20210322233357](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210322233357.png)
 
 发现多余的文字已经消失了。
 

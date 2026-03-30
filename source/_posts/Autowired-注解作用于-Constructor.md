@@ -8,8 +8,8 @@ tags:
 - Spring Boot
 categories:
 - Java
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210809061657.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210809061657.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210809061657.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210809061657.png
 ---
 
 对于 @Autowired 注解，一般情况下的使用是用其来注解一个变量，比如

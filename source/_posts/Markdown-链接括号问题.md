@@ -6,8 +6,8 @@ tags:
 - Markdown
 categories:
 - Markdown
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210613203227.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210613203227.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210613203227.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210613203227.png
 ---
 
 关于 Markdown，它的链接格式是这样的
@@ -32,7 +32,7 @@ https://en.wikipedia.org/wiki/P6_(microarchitecture)
 
 那么渲染之后可能是这样的
 
-![图中多了一个右括弧](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210613202844.png)
+![图中多了一个右括弧](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210613202844.png)
 
 **解决方法**
 

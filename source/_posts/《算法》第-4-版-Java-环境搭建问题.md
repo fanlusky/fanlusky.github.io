@@ -9,8 +9,8 @@ tags:
 - IDEA
 categories:
 - Java
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222424.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222437.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222424.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222437.png
 ---
 
 在阅读《算法》第 4 版时，由于程序的运行需要依赖书中提供的程序库，遂到官网下载之。
@@ -19,16 +19,16 @@ banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictur
 
 最后解决的办法是，重新下载了全书所有的依赖整合成的依赖集 `algs4.jar`，然后重新导入到 IDEA，这下就解决了。这里说明一下，`stdlib.jar` 中的内容是 `algs4.jar` 的一部分。
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210325230522.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210325230522.png)
 
 附注：IDEA 导入 `jar` 包的一种方法
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210325230821.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210325230821.png)
 
 然后将 `algs4.jar` 文件复制到 lib 文件中，
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210325231159.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210325231159.png)
 
-![](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210325231223.png)
+![](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210325231223.png)
 
 发现 IDEA 可以智能提示了，说明已经导入成功了。

@@ -11,7 +11,7 @@ banner_img: https://i.imgur.com/krCmIQu.png
 description: '谨以此文祭奠我可能已经死掉的 AstroNvim'
 ---
 
-我的配置托管的地址: <https://github.com/fanlumaster/FanyLazyvim>。如果你遇到不清晰的地方，直接到我的代码仓库中查看就可以了。
+我的配置托管的地址: <https://github.com/fanlusky/FanyLazyvim>。如果你遇到不清晰的地方，直接到我的代码仓库中查看就可以了。
 
 时光流转。工作的事情告一个段落。近来可以抽出一点时间写博客了。
 
@@ -201,7 +201,7 @@ map("n", "<leader>py", '<cmd>TermExec cmd="python %"<cr>', { desc = "Run python 
 
 ### 映射执行 java 的 maven 简单项目的快捷键
 
-前提：可以看我的另一篇[博客](https://fanlumaster.github.io/2023/11/05/Neovim-%E9%85%8D%E7%BD%AE-Java-%E7%9A%84%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/)。主要采取了 pwsh 脚本批处理的思路来执行单个 java 文件。
+前提：可以看我的另一篇[博客](https://fanlusky.github.io/2023/11/05/Neovim-%E9%85%8D%E7%BD%AE-Java-%E7%9A%84%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/)。主要采取了 pwsh 脚本批处理的思路来执行单个 java 文件。
 
 ```lua
 -- run java maven project

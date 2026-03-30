@@ -17,19 +17,19 @@ description: ' '
 
 我们需要修改页面底部的颜色信息，如下
 
-![20210402161712](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210402161712.png)
+![20210402161712](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210402161712.png)
 
 ### 解决方案
 
 首先，找到在站点目录下的 `themes/next/source/css/_common/outline/footer` 的文件夹，然后，打开 `footer.styl` 文件。
 
-![20210402161200](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210402161200.png)
+![20210402161200](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210402161200.png)
 
 我们需要更改两个地方。
 
 第一处
 
-![20210402161534](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210402161534.png)
+![20210402161534](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210402161534.png)
 
 这里将 color 换成我们需要的颜色的十六进制码即可。
 
@@ -46,6 +46,6 @@ description: ' '
 }
 ```
 
-![20210402161847](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210402161847.png)
+![20210402161847](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210402161847.png)
 
 这里的颜色随便设定，效果是将页脚的链接的颜色更改为我们设定的值。

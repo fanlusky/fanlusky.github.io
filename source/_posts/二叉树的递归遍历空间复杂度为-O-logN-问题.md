@@ -50,6 +50,6 @@ public ReturnType process(Node head) {
 
 我们借助 IDEA 的调试工具看一下函数调用栈来加深理解
 
-![20210326192112](https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210326192112.png)
+![20210326192112](https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210326192112.png)
 
 上图是一个二叉树的递归先序遍历，同时遍历到达最后一层时的递归调用栈。

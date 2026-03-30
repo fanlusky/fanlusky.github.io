@@ -8,8 +8,8 @@ tags:
 - ThinkPad
 categories:
 - Linux
-index_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222637.png
-banner_img: https://cdn.jsdelivr.net/gh/fanlumaster/BlogMaps@master/blogs/pictures/20210527222637.png
+index_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222637.png
+banner_img: https://cdn.jsdelivr.net/gh/fanlusky/BlogMaps@master/blogs/pictures/20210527222637.png
 ---
 
 这个问题无法通过设置 BIOS 来解决，目测是 ThinkPad 的适配工作没有做好，目前可以做的是，手动关闭这个灯
